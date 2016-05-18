@@ -20,5 +20,4 @@ public interface ContactsDao {
     void create(List<Contact> contacts);
     void fillRandom(int numberOfInserts);
 
-//    void findContact(String );
 }

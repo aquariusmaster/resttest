@@ -33,7 +33,7 @@ public class JdbcContactsDao implements ContactsDao{
         String sql = "SELECT * FROM resttest.contacts";
 
         List<Contact> list = jdbcTemplate.query(new StreamingStatementCreator(sql), new ContactsResultSetExtractor<List<Contact>>(nameFilter, limit, page));
-        System.out.println("DAO out: " + (System.currentTimeMillis() - start));
+        System.out.println("DAO procesing time: " + (System.currentTimeMillis() - start));
         return list;
 
     }

@@ -27,8 +27,4 @@ public class ContactsService implements IContactsService{
     @Override
     public boolean create(Contact contact) {return concactsDao.create(contact); }
 
-//    @Override
-//    public Contact findContact(String name) {
-//        return concactsDao.findContact(name);
-//    }
 }

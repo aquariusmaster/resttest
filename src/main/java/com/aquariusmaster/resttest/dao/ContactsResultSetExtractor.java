@@ -55,7 +55,7 @@ public class ContactsResultSetExtractor<T> implements ResultSetExtractor<List<Co
                 skip--;
             }
         }
-        System.out.println("ResultSet time: " + (System.currentTimeMillis() - start));
+        System.out.println("ResultSet processing time: " + (System.currentTimeMillis() - start));
         return list;
     }
 

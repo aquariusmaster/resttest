@@ -14,5 +14,4 @@ public interface IContactsService {
     void fillRandom(int numberOfInserts);
     boolean create(Contact contact);
 
-//    Contact findContact(String name);
 }
