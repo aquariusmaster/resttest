@@ -1,4 +1,4 @@
-# resttest
+# resttest [![Build Status](https://travis-ci.org/aquariusmaster/resttest.svg?branch=master)](https://travis-ci.org/aquariusmaster/resttest)
 
 Есть таблица contacts в SQL базе. В ней миллионы строк.
 
