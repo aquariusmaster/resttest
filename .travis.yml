@@ -4,4 +4,4 @@ services:
   - mysql
 sudo: true
 before_script:
-  - mysql -e 'create database resttest; CREATE TABLE IF NOT EXISTS `resttest`.`contacts` (`id` BIGINT(45) NOT NULL AUTO_INCREMENT,`name` VARCHAR(255) NOT NULL,PRIMARY KEY (`id`)) ENGINE = InnoDBDEFAULT CHARACTER SET = utf8;'
+  - mysql -e 'create database IF NOT EXISTS resttest; CREATE TABLE IF NOT EXISTS `resttest`.`contacts` (`id` BIGINT(45) NOT NULL AUTO_INCREMENT,`name` VARCHAR(255) NOT NULL,PRIMARY KEY (`id`)) ENGINE = InnoDBDEFAULT CHARACTER SET = utf8;'
